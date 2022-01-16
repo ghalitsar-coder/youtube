@@ -1,5 +1,13 @@
+import ProductList from "./components/ProductList";
+// import Home from "./pages/Home";
+
 const App = () => {
-  return <div>Hello world!</div>;
+  return (
+    <div>
+      <ProductList />
+      
+    </div>
+  );
 };
 
 export default App;
